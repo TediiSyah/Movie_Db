@@ -26,47 +26,52 @@
 
 
 *Detele User
-![Screenshot 2025-01-17 103046](https://github.com/user-attachments/assets/cc615748-ad35-4814-aca4-43c2bfd59f2e)
-
+![Screenshot 2025-01-17 103107](https://github.com/user-attachments/assets/ea415e50-5b22-4940-957f-1389996f8b20)
 
 
 ## Category!
 *Create Category
-![Screenshot 2025-01-17 103107](https://github.com/user-attachments/assets/ed782ec1-b131-4bd1-a7af-17aad4105f44)
+![Screenshot 2025-01-17 104400](https://github.com/user-attachments/assets/1eef3541-4f87-42c4-8dea-5b60b9a12326)
+
 
 
 *Get Category
-![Screenshot 2025-01-17 103320](https://github.com/user-attachments/assets/e9d2826d-6c4c-40b1-b03c-f4d3dd3f956c)
+
+![Screenshot 2025-01-17 105039](https://github.com/user-attachments/assets/689399df-ea33-48fe-9253-d446fb16022c)
 
 
 *Get Detail Category
-![Screenshot 2025-01-17 104400](https://github.com/user-attachments/assets/47736b39-3511-4ecd-8076-b890a330be70)
+
+![Screenshot 2025-01-17 105122](https://github.com/user-attachments/assets/0fd979ee-c059-4d12-8f15-4cc2107f2a22)
 
 
 *Update Category
-![Screenshot 2025-01-17 105039](https://github.com/user-attachments/assets/be4b2e0e-f68f-4b5c-98f9-db1b4cb2ae88)
+![Screenshot 2025-01-17 105336](https://github.com/user-attachments/assets/8bd89e79-2078-484e-bded-0ea7e076ab98)
 
 
 *Detele Category
-![Screenshot 2025-01-17 105122](https://github.com/user-attachments/assets/d1855baa-2ea8-4a7c-880c-f801e422fc80)
+![Screenshot 2025-01-17 105400](https://github.com/user-attachments/assets/58dbf168-a950-4499-9f81-b1f1a5e8c11d)
+
 
 
 ## Movie!
 *Create Movie
-![Screenshot 2025-01-17 105336](https://github.com/user-attachments/assets/ccb1ca31-d4b6-4682-94b2-9e08e781bf68)
+![Screenshot 2025-01-17 125902](https://github.com/user-attachments/assets/9d8b9019-9fa7-4c2f-9f6a-3a5bcb5205d5)
 
 
 *Get Movie
-![Screenshot 2025-01-17 105400](https://github.com/user-attachments/assets/d76f9417-31ba-4ccd-9b2f-9e43198068b6)
+![Screenshot 2025-01-17 130026](https://github.com/user-attachments/assets/62eb7882-eb8c-419d-bf06-522ff9affd67)
 
 
 *Get Detail Movie
-![Screenshot 2025-01-17 125902](https://github.com/user-attachments/assets/81589d7d-ac5f-4785-9bef-2fa0012302a7)
+![Screenshot 2025-01-17 130612](https://github.com/user-attachments/assets/ea3b5c62-b0ce-4558-a389-1ebe21b93a1d)
 
 
 *Update Movie
+![Screenshot 2025-01-17 130854](https://github.com/user-attachments/assets/b432b0c0-783d-4386-a710-93fec06396d6)
 
 
-
+*Detele User
+![Screenshot 2025-01-17 131104](https://github.com/user-attachments/assets/4097829d-b528-43fe-8778-23cc08e917aa)
 
 
