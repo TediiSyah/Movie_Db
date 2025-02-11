@@ -7,58 +7,71 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## USER!
+*Create User
+![Screenshot 2025-01-21 090546](https://github.com/user-attachments/assets/0fcd1efd-bbed-419b-8d80-5e0bf8e5c541)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+*Get User
+![Screenshot 2025-01-17 102420](https://github.com/user-attachments/assets/141d2f1c-48f6-4db2-afa0-3d3a47bcae75)
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+*Get Detail User
+![Screenshot 2025-01-17 102503](https://github.com/user-attachments/assets/82e982e0-0ae8-4339-b858-b31bb3e3429f)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+*Update User
+![Screenshot 2025-01-17 102804](https://github.com/user-attachments/assets/547ad208-21f8-4e32-a5ce-fd20c7b5ec03)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+*Detele User
+![Screenshot 2025-01-17 103107](https://github.com/user-attachments/assets/ea415e50-5b22-4940-957f-1389996f8b20)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+## Category!
+*Create Category
+![Screenshot 2025-01-17 104400](https://github.com/user-attachments/assets/1eef3541-4f87-42c4-8dea-5b60b9a12326)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+*Get Category
 
-## Security Vulnerabilities
+![Screenshot 2025-01-17 105039](https://github.com/user-attachments/assets/689399df-ea33-48fe-9253-d446fb16022c)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+*Get Detail Category
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Screenshot 2025-01-17 105122](https://github.com/user-attachments/assets/0fd979ee-c059-4d12-8f15-4cc2107f2a22)
+
+
+*Update Category
+![Screenshot 2025-01-17 105336](https://github.com/user-attachments/assets/8bd89e79-2078-484e-bded-0ea7e076ab98)
+
+
+*Detele Category
+![Screenshot 2025-01-17 105400](https://github.com/user-attachments/assets/58dbf168-a950-4499-9f81-b1f1a5e8c11d)
+
+
+
+## Movie!
+*Create Movie
+![Screenshot 2025-01-17 125902](https://github.com/user-attachments/assets/9d8b9019-9fa7-4c2f-9f6a-3a5bcb5205d5)
+
+
+*Get Movie
+![Screenshot 2025-01-17 130026](https://github.com/user-attachments/assets/62eb7882-eb8c-419d-bf06-522ff9affd67)
+
+
+*Get Detail Movie
+![Screenshot 2025-01-17 130612](https://github.com/user-attachments/assets/ea3b5c62-b0ce-4558-a389-1ebe21b93a1d)
+
+
+*Update Movie
+![Screenshot 2025-01-17 130854](https://github.com/user-attachments/assets/b432b0c0-783d-4386-a710-93fec06396d6)
+
+
+*Detele User
+![Screenshot 2025-01-17 131104](https://github.com/user-attachments/assets/4097829d-b528-43fe-8778-23cc08e917aa)
+
+
