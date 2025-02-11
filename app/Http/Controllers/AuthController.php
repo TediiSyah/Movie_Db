@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use App\Models\User;
@@ -10,6 +11,7 @@ use GuzzleHttp\Psr7\Response;
 use Illuminate\Auth\Events\Failed;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rule;
+
 
 
 
@@ -35,10 +37,10 @@ class AuthController extends Controller
         $data = [
             'name'=>$request->get('name'),
             'email'=>$request->get('email'),
-            // 'password'=>Hash::make($request->get('password')), hash untuk 
-            'password'=>$request->get('password'),
+            'password'=>Hash::make($request->get('password')), 
+            // 'password'=>$request->get('password'),
             'role'=>$request->get('role'),
-            "addres"=>$request->get("address"),
+            "address"=>$request->get("address"),
             "birthday"=>$request->get("birthday"),
         ];
 
@@ -103,13 +105,14 @@ class AuthController extends Controller
             ]);
         }
         $data = [
-            'name'=>$request->get('name'),
-            'email'=>$request->get('email'),
-            'password'=>Hash::make($request->get('password')),
-            'role'=>$request->get('role'),
-            "addres"=>$request->get("address"),
-            "birthday"=>$request->get("birthday"),
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'password' => Hash::make($request->get('password')), // HASH PASSWORD
+            'role' => $request->get('role'),
+            "address" => $request->get("address"),
+            "birthday" => $request->get("birthday"),
         ];
+        
         try {
             $update = User::where('id',$id)->update($data);
             return Response()->json([
@@ -141,6 +144,66 @@ class AuthController extends Controller
         }
     }
 
+    public function login(Request $request)
+{
+    $validator = Validator::make($request->all(),[
+        'email' => 'required|string|email',
+        'password' => 'required|string',
+    ]);
+    if($validator->fails()){
+        return response()->json([
+            'status' => false,
+            'message' => $validator->errors(),
+        ]);
+    }
 
+    // Cek apakah user ditemukan
+    $user = User::where('email', $request->email)->first();
+    if (!$user) {
+        return response()->json([
+            'status' => false,
+            'message' => 'User tidak ditemukan!',
+        ], 401);
+    }
+
+    // Cek apakah password cocok
+    if (!Hash::check($request->password, $user->password)) {
+        return response()->json([
+            'status' => false,
+            'message' => 'Password salah!',
+        ], 401);
+    }
+
+    // Coba login dengan Auth::guard('api')
+    $token = Auth::guard('api')->attempt(['email' => $request->email, 'password' => $request->password]);
+
+    if (!$token) {
+        return response()->json([
+            'status' => false,
+            'message' => 'JWT tidak bisa login!',
+        ], 401);
+    }
+
+    return response()->json([
+        'status' => true,
+        'message' => 'Sukses login',
+        'data' => $user,
+        'authorisation' => [
+            'token' => $token,
+            'type' => 'bearer',
+        ]
+    ]);
+}
+
+
+
+    public function logout()
+    {
+        Auth::guard('api')->logout();
+        return response()->json([
+            'status' => true,
+            'message' => 'Sukses logout',
+        ]);
+    }
 
 }
